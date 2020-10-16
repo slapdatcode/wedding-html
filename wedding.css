@@ -1,0 +1,79 @@
+* {
+	box-sizing: border-box;
+  {
+      margin-bottom: 1.5rem;
+    }
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    line-height: 1.5;
+    color: #233;
+    background-color:antiquewhite;
+}
+/*---CÍMEK---*/
+h1, h2, h3, h4, .tag, .kerdes{
+    font-family: 'Dancing Script', cursive;
+    color: #226;
+}
+h2{
+    font-size: 3rem;
+    color: #226;
+}
+h3{
+    font-size: 2rem;
+}
+.kerdes{
+    font-size: 1.5rem;
+}
+.par{
+    max-width: 500px;
+}
+ul img{
+    max-width: 400px;
+}
+.menu img{
+    max-width: 500px;
+}  
+
+.script, .helyszin, .menu, .gyik, .kontakt {
+  width: 95%;
+  margin: 1.2rem auto;
+  padding: .5rem 1rem;
+  text-align: center;
+}
+.header_fix{
+  background:url(assets/eljegyzes.jpg) no-repeat /*70%*/ center/cover;
+  display: table;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+.announce-text{
+    padding: 10px;
+    letter-spacing: 0.5rem;
+}
+.announce-wrapper{
+  display: table-cell;
+  vertical-align: middle;
+}
+.tag, h1{
+    font-size: 3.5rem;
+    color:#22f;
+}
+h1{
+    font-size: 5rem;
+}
+.date{
+ font-size: 2.5rem; 
+}
+.date::before,
+.date::after {
+  display: inline-block;
+  content: "";
+  background-color: #22f;
+  height: 2px;
+  width: 2.5rem;
+  vertical-align: middle;
+  margin: 0 .5rem;
+}
