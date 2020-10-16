@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+  {
+      margin-bottom: 1.5rem;
+    }
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    line-height: 1.5;
+    color: #233;
+    background-color:antiquewhite;
+}
+/*---CÍMEK---*/
+h1, h2, h3, h4, .tag, .kerdes{
+    font-family: 'Dancing Script', cursive;
+    color: #226;
+}
+.tag{
+    font-size: 3.5rem;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+.kerdes{
+    font-size: 1.5rem;
+}
+
+.script, .helyszin, .menu, .gyik, .kontakt {
+  width: 95%;
+  margin: 1.2rem auto;
+  padding: .5rem 1rem;
+  text-align: center;
+    
+/*a:hover {
+color: #eda087;
+transition: color .15s ease-in-out;
+}*/
