@@ -29,8 +29,16 @@ h3{
 .par{
     max-width: 500px;
 }
-ul img{
+.hely{
     max-width: 400px;
+}
+.list li:after {
+  content: "";
+  display: block;
+  height: .1875rem;
+  width: 25vw;
+  margin: 1.5rem auto;
+  background-color: #226;
 }
 .menu img{
     max-width: 500px;
