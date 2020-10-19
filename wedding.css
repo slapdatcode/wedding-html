@@ -12,16 +12,25 @@ body {
     background-color:antiquewhite;
 }
 /*---CÍMEK---*/
-h1, h2, h3, h4, .tag, .kerdes{
+h2, h3, h4 {
     font-family: 'Dancing Script', cursive;
     color: #226;
 }
+h1, .tag{
+  color:#22f;
+  font-family: 'Dancing Script', cursive;
+}
+h1{
+    font-size: 8rem;
+}
 h2{
     font-size: 3rem;
-    color: #226;
 }
 h3{
     font-size: 2rem;
+}
+.tag {
+    font-size: 3.5rem;
 }
 .kerdes{
     font-size: 1.5rem;
@@ -44,11 +53,35 @@ h3{
     max-width: 500px;
 }  
 
-.script, .helyszin, .menu, .gyik, .kontakt {
+.helyszin, .menu, .gyik, .kontakt {
   width: 95%;
   margin: 1.2rem auto;
   padding: .5rem 1rem;
   text-align: center;
+}
+.script{
+  width:90%;
+  padding: 3rem 2rem;
+  margin: 5rem auto;
+  text-align: center;
+  background-color: floralwhite;    
+}
+.script p{
+    font-size: 1.5rem;
+    text-align: left;
+}
+.script h2{
+    padding: 3rem auto;
+}
+.script ul{
+    list-style: square;
+}
+.list figcaption{
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+}
+.list li{
+    padding-top: 5rem;
 }
 .header_fix{
   background:url(assets/eljegyzes.jpg) no-repeat /*70%*/ center/cover;
@@ -64,13 +97,6 @@ h3{
 .announce-wrapper{
   display: table-cell;
   vertical-align: middle;
-}
-.tag, h1{
-    font-size: 3.5rem;
-    color:#22f;
-}
-h1{
-    font-size: 5rem;
 }
 .date{
  font-size: 2.5rem; 
