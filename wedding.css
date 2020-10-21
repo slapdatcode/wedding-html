@@ -11,7 +11,6 @@ body {
     color: #233;
     background-color:antiquewhite;
 }
-/*---CÍMEK---*/
 h2, h3, h4 {
     font-family: 'Dancing Script', cursive;
     color: #226;
@@ -82,6 +81,13 @@ h3{
 }
 .list li{
     padding-top: 5rem;
+}
+a {
+    text-decoration: none;
+    color: #233;
+}
+a:hover{
+    color:#22f; 
 }
 .header_fix{
   background:url(assets/eljegyzes.jpg) no-repeat /*70%*/ center/cover;
