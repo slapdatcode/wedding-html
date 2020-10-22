@@ -10,6 +10,8 @@ body {
     line-height: 1.5;
     color: #233;
     background-color:antiquewhite;
+    display:inline-block;
+    text-align: center;
 }
 h2, h3, h4 {
     font-family: 'Dancing Script', cursive;
@@ -50,7 +52,10 @@ h3{
   background-color: #226;
 }
 .menu img{
-    max-width: 100vw;
+    max-width: 50%;
+}
+.menu img:hover{
+  width: 90%;
 }
 .menu{
     font-size: 1.25rem;
@@ -73,8 +78,11 @@ h3{
   width:90%;
   padding: 3rem 2rem;
   margin: 5rem auto;
-  text-align: center;
+  text-align: left;
   background-color: floralwhite;    
+}
+.script h2{
+  text-align: center;
 }
 .script p{
     font-size: 1.5rem;
@@ -166,8 +174,7 @@ a:hover{
 }
 /*bekapcsolni széles képernyőn!*/
 .screenwide{
-    font-size: 1.6rem;
-    display:none;
+    font-size: 1rem;
 }
 a .email{
     text-decoration:inherit;
@@ -200,3 +207,128 @@ footer-wrapper {
 .footer a:hover{
     color: chartreuse;
 }
+
+/*--------@MEDIA-------*/
+
+@media (max-width: 768px) {
+    *{
+        text-align: center;
+        margin: 2rem auto;
+    }
+  .header_fix {
+   width: 100%;
+  }
+    .script{
+    width:100%;
+    padding: 1rem auto;
+    margin: 1rem auto;
+    text-align: center;
+    display: block;
+    background-color: none;
+}
+    .script p{
+    font-size: 1.7rem;
+    text-align: center;     
+    }
+    .script ul{
+        list-style:none;
+}
+}
+.helyszin{
+    display: block;
+    text-align:center;
+    font-size: 2rem;
+}
+    .helyszin .img{
+    max-width: 50%
+}
+
+/*_______MOBIL______*/
+
+@media (max-width: 768px) {
+  .smalscreen{
+    color: white;
+    background-color: crimson;
+  }
+  img {
+    max-width: 30%;
+  } 
+  .menu:after {
+    display: none;
+  }
+  .date::before,
+  .date::after {
+    display: none;
+  }
+  .kontakt:before {
+    display: none;
+  }
+  .list li:after {
+    display: none;
+  }
+  .list li{
+    padding-top: 1rem;
+  }
+  .gyik{
+    margin: 1.5rem auto;
+  }
+  .valasz{
+    font-size: 1.5rem;
+    color: #22f;
+  }
+  .footer {
+  height: 10vh;
+  width: 100%;
+  }
+  .footer p{
+    font-size: 1rem;
+  }
+  .gyik{
+  width:100%;
+}
+  .screenwide{
+    display:none;
+  }
+  
+  /*@media (min-width: 768px) {
+  
+  img {
+    max-width: 60%;
+  }
+
+  .menu:after {
+    display: none;
+  }
+  .date::before,
+  .date::after {
+    display: none;
+  }
+  .kontakt:before {
+    display: none;
+  }
+  .list li:after {
+    display: none;
+  }
+  .list li{
+    padding-top: 2rem;
+  }
+  .gyik{
+    margin: 1.5rem auto;
+  }
+  .valasz{
+    font-size: 1rem;
+  }
+  .footer {
+  height: 10vh;
+  width: 100%;
+  }
+  .footer p{
+    font-size: 1rem;
+  }
+  .gyik{
+  width:90%;
+}
+  .screenwide{
+    display:none;
+  }*/
+    
